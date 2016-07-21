@@ -1,0 +1,80 @@
+body {
+	width                : 90%;
+	margin               : 0 ;
+	font-family          : 'Raleway', sans-serif;
+	font-weight          : bold;
+	color                : black;
+	padding              : 0;
+	background           : grey;
+
+}
+
+#wrap{
+	width                : 960px;
+	margin               : 0 auto;
+	
+}
+
+nav{  
+    float                : left;
+    width                : 100%;
+
+}
+
+nav ul {
+	margin               : 0px;
+	padding              : 0px;
+	list-style           : none;
+	float                : left;
+	width                : 100%;
+	border               : solid 0px;
+	word-spacing         : 40px;
+}
+
+li{
+	display              : inline-block;
+	
+}
+
+nav ul li:hover{
+	background           :  orange;
+	color                :  white;
+
+}
+
+#banner{
+	 
+	 height              : 150px;
+	 clear               : both;
+	 display             : none;
+}
+
+img {
+    width                : 48%;
+	height               : auto;
+	float                : left;
+	margin               : 5px;
+	display              : block;
+}
+
+.homeImg{
+	height : 200px;
+}
+.polaroid{
+	align                :center;
+	display              :block;
+	margin               : 0px auto;
+	width                : 50%;
+}
+.container{
+	display              : block;
+    margin               : auto;
+}
+
+footer{
+	
+	align                : center;
+	font-size            : 8pt;
+	font-weight          : bold;
+
+
